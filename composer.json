@@ -1,0 +1,16 @@
+{
+    "name": "mikaramanantsoa/fakepokedex",
+    "autoload": {
+        "psr-4": {
+            "Fakepokedex\\": "src/",
+            "Config\\": "config/"
+        }
+    },
+    "require": {
+        "bramus/router": "^1.6",
+        "twig/twig": "^3.4"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^6.0"
+    }
+}
