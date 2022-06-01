@@ -1,5 +1,6 @@
 # Simple-API-Idea
-L'exercice était de créer une API simple où on pouvait envoyer à une base de données, des informations saisies sur l'application PostMan.
+
+In this exercise, we had to create an API where we could send to a database, informations typed with the PostMan application.
 
 (Every filling fields should be a string of length <= 255)
 
@@ -15,7 +16,9 @@ PUT: This command will give you the right to update a Pokemon (You have to enter
 
 /trainer :
 
-POST: This command will create a new Trainer, you must write its name, gender and wallet. (This time, as parameters, you must use $trainerName, wallet, $trainerGender)
+(This time, as parameters, you must use $trainerName, wallet, $trainerGender)
+
+POST: This command will create a new Trainer, you must write its name, gender and wallet. 
 
 GET: This command will give every Trainer who has been created with the POST method.
 
